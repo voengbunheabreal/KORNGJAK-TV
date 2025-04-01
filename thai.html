@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="shortcut icon" href="./src/assets/icon.png" type="image/x-icon">
+  <link href="/dist/styles.css" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bayon&family=Bebas+Neue&family=Koulen&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+  <link rel="import" href="./src/router/index.js">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Khmer&display=swap" rel="stylesheet">
+  <title>khmoviehd</title>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="bg-black text-white p-4 flex items-center justify-between sticky top-0 z-10">
+    <a href="/index.html"><img src="/assets/Khmer-Vovie-HD-300-x-80px.png" alt="" class="w-40"></router-link>
+ 
+     <div class="hidden md:flex space-x-6 text-sm">
+       <a href="/home.html" class="hover:text-red-500">Home</a>
+       <a href="/chinese.html" class="hover:text-red-500">Chinese</a>
+       <a href="/thai.html" class="hover:text-red-500">Thai</a>
+       <a href="/khmer.html" class="hover:text-red-500">Khmer</a>
+       <a href="/indonesia.html" class="hover:text-red-500">Indonesia</a>
+       <a href="/contact.html" class="hover:text-red-500">Contact</a>
+       
+       
+     </div>
+ 
+     <div class="flex items-center space-x-4">
+       <button class="text-white hover:text-gray-400">🔍</button>
+       <button class="text-white hover:text-gray-400">🇰🇭</button>
+       <button class="bg-red-600 px-3 py-1 rounded hover:bg-red-700">ចូលគណនី</button>
+     </div>
+   </nav>
+   <!-- Button side -->
+   <div class="fixed bottom-0 left-0 w-full bg-black text-white p-3 flex justify-around md:hidden">
+    <a href="/home.html" class="text-center flex flex-col items-center">
+      <span>🏠</span>
+      <p class="text-xs">ទំព័រដើម</p>
+    </a>
+    <a href="/chinese.html" class="text-center flex flex-col items-center">
+      <span>🎬</span>
+      <p class="text-xs">Chinese</p>
+    </a>
+    <a href="/thai.html" class="text-center flex flex-col items-center">
+      <span>🎬</span>
+      <p class="text-xs">Thai</p>
+    </a>
+    <a href="/khmer.html" class="text-center flex flex-col items-center">
+      <span>🎬</span>
+      <p class="text-xs">Khmer</p>
+    </a>
+    <a href="/indonesia.html" class="text-center flex flex-col items-center">
+      <span>🎬</span>
+      <p class="text-xs">Indonesia</p>
+    </a>
+    <a href="/contact.html" class="text-center flex flex-col items-center">
+      <span>📞</span>
+      <p class="text-xs">Contact</p>
+    </a>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
