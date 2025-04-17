@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function() {
   
     const titles = [
       "Title for Image 1",
-      "Title for Image 2",
+      "ផ្នូរបិសាច – Exhuma",
       "Title for Image 3",
     ];
   
