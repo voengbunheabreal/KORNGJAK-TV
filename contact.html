@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="shortcut icon" href="./src/assets/icon.png" type="image/x-icon">
+  <link href="/dist/styles.css" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bayon&family=Bebas+Neue&family=Koulen&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+  <link rel="import" href="./src/router/index.js">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Khmer&display=swap" rel="stylesheet">
+  <title>khmoviehd</title>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="bg-black text-white p-4 flex items-center justify-between sticky top-0 z-10">
+    <a href="/index.html"><img src="/assets/Khmer-Vovie-HD-300-x-80px.png" alt="" class="w-40"></router-link>
+ 
+     <div class="hidden md:flex space-x-6 text-sm">
+       <a href="/home.html" class="hover:text-red-500">Home</a>
+       <a href="/chinese.html" class="hover:text-red-500">Chinese</a>
+       <a href="/thai.html" class="hover:text-red-500">Thai</a>
+       <a href="/khmer.html" class="hover:text-red-500">Khmer</a>
+       <a href="/indonesia.html" class="hover:text-red-500">Indonesia</a>
+       <a href="/contact.html" class="hover:text-red-500">Contact</a>
+       
+       
+     </div>
+ 
+     <div class="flex items-center space-x-4">
+       <button class="text-white hover:text-gray-400">🔍</button>
+       <button class="text-white hover:text-gray-400">🇰🇭</button>
+       <button class="bg-red-600 px-3 py-1 rounded hover:bg-red-700">ចូលគណនី</button>
+     </div>
+   </nav>
+   <!-- Contact Page -->
+<section class="max-w-3xl mx-auto px-4 py-12">
+  <h2 class="text-3xl font-bold mb-6 text-center text-red-600">ទំនាក់ទំនង</h2>
+
+  <p class="text-center text-gray-300 mb-8">
+    ប្រសិនបើអ្នកមានសំណួរ ឬយោបល់ណាមួយ សូមទាក់ទងមកកាន់យើងខ្ញុំតាមរយៈទម្រង់ខាងក្រោម។ យើងខ្ញុំនឹងឆ្លើយតបឱ្យបានលឿនបំផុត។
+  </p>
+
+  <form class="space-y-6 bg-gray-900 p-6 rounded-lg shadow-lg">
+    <div>
+      <label for="name" class="block text-white mb-1">ឈ្មោះ</label>
+      <input type="text" id="name" name="name" class="w-full p-2 rounded bg-gray-800 text-white border border-gray-700 focus:outline-none focus:ring-2 focus:ring-red-600" required>
+    </div>
+
+    <div>
+      <label for="email" class="block text-white mb-1">អ៊ីមែល</label>
+      <input type="email" id="email" name="email" class="w-full p-2 rounded bg-gray-800 text-white border border-gray-700 focus:outline-none focus:ring-2 focus:ring-red-600" required>
+    </div>
+
+    <div>
+      <label for="message" class="block text-white mb-1">សារ</label>
+      <textarea id="message" name="message" rows="4" class="w-full p-2 rounded bg-gray-800 text-white border border-gray-700 focus:outline-none focus:ring-2 focus:ring-red-600" required></textarea>
+    </div>
+
+    <button type="submit" class="bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-4 rounded w-full">
+      ផ្ញើសារ
+    </button>
+  </form>
+</section>
+
+   <!-- Button side -->
+   <div class="fixed bottom-0 left-0 w-full bg-black text-white p-3 flex justify-around md:hidden">
+    <a href="/home.html" class="text-center flex flex-col items-center">
+      <span>🏠</span>
+      <p class="text-xs">ទំព័រដើម</p>
+    </a>
+    <a href="/chinese.html" class="text-center flex flex-col items-center">
+      <span>🎬</span>
+      <p class="text-xs">Chinese</p>
+    </a>
+    <a href="/thai.html" class="text-center flex flex-col items-center">
+      <span>🎬</span>
+      <p class="text-xs">Thai</p>
+    </a>
+    <a href="/khmer.html" class="text-center flex flex-col items-center">
+      <span>🎬</span>
+      <p class="text-xs">Khmer</p>
+    </a>
+    <a href="/indonesia.html" class="text-center flex flex-col items-center">
+      <span>🎬</span>
+      <p class="text-xs">Indonesia</p>
+    </a>
+    <a href="/contact.html" class="text-center flex flex-col items-center">
+      <span>📞</span>
+      <p class="text-xs">Contact</p>
+    </a>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
